@@ -94,11 +94,11 @@ admin_panel_settings
 </span>
                 <h3>View Announcement</h3>
             </a>   
-            <a href="/proj-alloc/admin/index.php?announcements">
+            <a href="/proj-alloc/admin/index.php?tol">
             <span class="material-symbols-outlined">
 admin_panel_settings
 </span>
-                <h3>Add Announcement</h3>
+                <h3>Teachers Leave</h3>
             </a>   
              
            
@@ -154,6 +154,9 @@ admin_panel_settings
             }
             if(isset($_GET['announcements'])){
                 include('Announcements.php');
+            }
+            if(isset($_GET['tol'])){
+                include('tol.php');
             }
            
             ?>

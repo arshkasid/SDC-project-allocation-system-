@@ -1,6 +1,14 @@
 <?php
 include('../includes/connect.php');
 include('../functions/common_function.php');
+session_start();
+
+    if(!isset($_SESSION['adminId'])){
+        echo "<script> alert('Please login ')</script>";
+        echo "<script> window.open('../users_area/user_login.php','_self')</script>";
+    }
+    $adminId=$_SESSION['adminId'];
+
 ?>
 
 <!DOCTYPE html>

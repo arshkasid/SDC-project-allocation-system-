@@ -62,7 +62,7 @@
                 <td>$phoneNo</td>
                 <td>$email</td>
                 <td>$project_name</td>
-                <td><a href='$proposal' style='background-color: #008CBA; /* Green */
+                <td><a href='$proposal' target='_blank'style='background-color: #008CBA; /* Green */
                 border: none;
                 color: white;
                 padding: 15px 32px;

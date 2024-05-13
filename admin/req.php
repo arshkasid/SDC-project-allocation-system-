@@ -54,14 +54,14 @@
                 <td>$project_name</td>
                
                 <td>
-                <a href='/proj-alloc/admin/index.php?removeReq=$regNo&facultyId=$facultyId' style='background-color:rgb(48, 172, 255);
+                <a href='/proj-alloc/admin/index.php?removeReq=$regNo&facultyId=$facultyId' style='background-color:rgb(255 0 0);
                 border: none;
                 color: white;
                 padding: 15px 32px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
-                font-size: 16pxt;' >OPEN</a>
+                font-size: 16pxt;' >remove</a>
                 </td>
 
                
