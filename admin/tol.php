@@ -48,7 +48,7 @@
                 <td >$addedBy</td>
              
                 <td>
-                <a href='removeTol.php?Tol=$facultyId' class='btn btn-danger' style='background-color: #ff0000;
+                <a href='removeTol.php?tol=$facultyId' class='btn btn-danger' style='background-color: #ff0000;
                   border: none;
                   color: white;
                   padding: 15px 32px;
